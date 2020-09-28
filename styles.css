@@ -1,0 +1,137 @@
+body {
+  font-family: 'Raleway';
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  margin: 0px;
+}
+
+a:link {
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+}
+
+b {
+  font-weight: bolder;
+}
+
+h3 {
+  color: black;
+}
+
+ul {
+  color: black;
+}
+
+li {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 30px;
+  color: black;
+}
+
+h6 {
+  margin-bottom: 8;
+}
+
+/* CSS for left side of the screen */
+
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 150;
+}
+
+.fab {
+  font-size: 24;
+}
+
+.fas {
+  font-size: 24;
+}
+
+.left {
+  position: fixed;
+  left: 175;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 375;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.left img {
+  border-radius: 50%;
+  padding-top:10px;
+}
+
+.left h6 {
+  font-size: 40px;
+  color: black;
+}
+
+.left p {
+  text-align: center;
+}
+
+hr {
+  width: inherit;
+  margin: 0;
+  margin-top: 16;
+}
+
+span {
+  color: #bf0000;
+  font-weight: bolder;
+}
+
+/* CSS for right side of the screen */
+
+.standfirst {
+  font-size: 20;
+}
+
+.right {
+  width: 450;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.right2 {
+  width: 550;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
