@@ -71,3 +71,11 @@ span {
   margin-top: 20px;
   background-color: white;
 }
+
+.small_box {
+  border: 1px solid;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+
