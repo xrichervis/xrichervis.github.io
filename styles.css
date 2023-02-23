@@ -67,7 +67,7 @@ span {
 .box {
   border: 1px solid;
   padding: 10px;
-  box-shadow: 10px 10px;
+  box-shadow: 8px 10px;
   margin-top: 20px;
   background-color: white;
 }
